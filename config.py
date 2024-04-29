@@ -8,15 +8,15 @@ load_dotenv()
 class Config(object):
     LOGGER = True
 
-    API_ID = int(getenv("API_ID", 6))
-    API_HASH = getenv("API_HASH", None)
+    API_ID = int(getenv("API_ID", "26945844"))
+    API_HASH = getenv("API_HASH", "9f2f1d81fd2af2b21a700fa6681215b1")
     ARQ_API_KEY = "PMPTTD-HOMLMF-SRBHNH-RZMWXL-ARQ"
     SPAMWATCH_API = None
     TOKEN = getenv("TOKEN", None)
-    OWNER_ID = int(getenv("OWNER_ID", 5938660179))
+    OWNER_ID = int(getenv("OWNER_ID", 5631563685))
     OWNER_USERNAME = getenv("OWNER_USERNAME", "Abishnoi1M")
     SUPPORT_CHAT = getenv("SUPPORT_CHAT", "AbishnoiMF")
-    LOGGER_ID = int(getenv("LOGGER_ID", "-1001819078701"))
+    LOGGER_ID = int(getenv("LOGGER_ID", "-1002020948245"))
     MONGO_URI = getenv(
         "MONGO_DB_URI",
         "mongodb+srv://public:abishnoimf@cluster0.rqk6ihd.mongodb.net/?retryWrites=true&w=majority",
